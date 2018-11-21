@@ -1,0 +1,13 @@
+/* ABOUT STYLES */
+
+img {
+    height: 175px;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 2;
+    color: #777777;
+}

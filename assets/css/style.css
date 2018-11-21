@@ -1,0 +1,122 @@
+/* BASE CSS Template */
+
+html, body {
+    height: 100%;
+    background-image: url("../images/little_triangles.png");
+    background-position: 50% 50%;
+    background-repeat: repeat;
+}
+/* ALL SECTIONS */
+body {
+    background-color: #F0F0F0;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* HEADER SECTION */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 1px;
+}
+
+header h1 {
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin: 0px;
+    color: #ffffff;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+.container-nav {
+    display: flex;
+    width: 960px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a{
+    margin-left: 20px;
+    color: #777777;
+    text-decoration: none;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+.navbar a:hover{
+    color: #4aaaa5;
+}
+
+.navbar .line-spacer{
+    border-left:1px solid #777777;
+    height: 15px;
+    margin-left: 20px;
+}
+
+
+/* MAIN BODY SECTION */
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container-main {
+    width: 960px;
+    background-color: #FFF;
+    overflow: auto; 
+    margin-top: 40px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    min-height: 100%;
+    margin-bottom: 20px;
+}
+
+.container-main div{
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: auto;
+    padding-bottom: 10px;
+    
+}
+.container-main h1 {
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.main {
+    border-color: #dddddd;
+}
+
+hr {
+    color: #777777;
+}
+
+
+/* FOOTER SECTION */
+footer {
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: 20px;
+    clear: both;
+}
+
+.container-footer {
+    color: #cccccc;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    /* fix this center stuff */
+    transform: translateX(-3%);
+}

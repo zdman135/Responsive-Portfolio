@@ -120,3 +120,27 @@ footer {
     /* fix this center stuff */
     transform: translateX(-3%);
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 980px) {       
+    header h1 {
+        margin-left: 15px;
+    }
+
+    .navbar {
+        margin-right: 20px;
+    }
+
+    .container-main {
+        margin-left: 25px;
+        margin-right: 300px;
+    }    
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px) {
+
+}

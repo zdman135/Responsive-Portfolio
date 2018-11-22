@@ -28,3 +28,15 @@
     text-align: center;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+@media (max-width: 980px) {       
+    .outer-box img {
+        width: 200px;
+        height: 150px;
+    }
+    
+    .outer-box img:hover {
+        width: 200px;
+        height: 150px;
+    }
+}

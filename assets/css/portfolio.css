@@ -40,3 +40,15 @@
         height: 150px;
     }
 }
+
+@media (max-width: 768px) {
+    .outer-box img {
+        width: 250px;
+        height: 200px;
+    }
+    
+    .outer-box img:hover {
+        width: 250px;
+        height: 200px;
+    }
+}

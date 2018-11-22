@@ -143,6 +143,23 @@ footer {
     }
 }
 
-@media (max-width: 640px) {
-
+@media (max-width: 640px) {    
+    header h1 {
+        padding-left: 100%;
+        padding-right: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 0;
+        white-space: nowrap;
+    }
+    
+    .container-nav {
+        flex-direction: column;
+        justify-content: initial;
+    }
+    
+    .navbar {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
